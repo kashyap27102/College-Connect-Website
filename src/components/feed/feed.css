@@ -1,0 +1,12 @@
+.feed {
+    flex: 6;
+    /* background-color: #f8f9fa; */
+}
+
+.feedWrapper {
+    padding: 20px;
+}
+
+.feedHr {
+    margin: 20px 0px;
+}

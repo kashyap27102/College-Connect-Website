@@ -1,0 +1,5 @@
+.homeContainer {
+    display: flex;
+    background-color: #f8f9fa;
+    /* height: calc(100vh - 60px); */
+}

@@ -1,0 +1,151 @@
+.topbarContainer {
+    height: 60px;
+    width: 100%;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 500;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+}
+
+.topbarLeft {
+    flex: 3;
+    text-align: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+    color: #198754;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.topbarCenter {
+    flex: 5;
+}
+
+.searchbar {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.searchIcon {
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.searchInput {
+    border: none;
+    width: 70%;
+    background-color: rgb(231, 231, 231);
+    margin-left: 5px;
+}
+
+.searchInput:focus {
+    outline: none;
+}
+
+.topbarRight {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
+
+.topbarLinks {
+    margin: auto;
+}
+
+.topbarLink {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.topbarIcons {
+    display: flex;
+    margin: 0px 25px 0px 25px;
+}
+
+.topbarIconItem {
+    margin: 24px 15px 15px 15px;
+    cursor: pointer;
+    position: relative;
+    font-size: 25px;
+}
+
+.topbarIconBadge {
+    width: 15px;
+    height: 15px;
+    color: white;
+    background-color: #198754;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -5px;
+    right: -5px;
+    font-size: 10px;
+}
+
+.topbarImg {
+    width: 40px;
+    height: 40px;
+    margin: 18px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    position: relative;
+}
+
+.dropdown {
+    position: absolute;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    right: 3%;
+    top: 90%;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+    z-index: 600;
+}
+
+.dropdownItems {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.dropdownItem {
+    display: flex;
+    font-size: medium;
+    margin: 5px 0px;
+    align-items: center;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.dropdownItem:hover {
+    background-color: rgb(235, 233, 233);
+    border-radius: 5px;
+}
+
+.dropdownicon {
+    background-color: rgb(223, 223, 223);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.dropdowntext {
+    padding-left: 15px;
+    font-size: medium;
+    font-weight: 600;
+    color: #198754;
+}

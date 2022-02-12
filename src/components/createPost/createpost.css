@@ -1,0 +1,61 @@
+.createPostBox {
+    background-color: #f8f9fa;
+    padding: 10px;
+    position: absolute;
+    width: 600px;
+    top: 30%;
+    height: 400px;
+    z-index: 600;
+    border-radius: 5px;
+    box-shadow: -1px 5px 44px 0px rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: -1px 5px 44px 0px rgba(0, 0, 0, 0.068);
+    -moz-box-shadow: -1px 5px 44px 0px rgba(0, 0, 0, 0.027);
+}
+
+.cretepostHeader {
+    margin: 10px;
+    position: relative;
+}
+
+.title {
+    text-align: center;
+}
+
+.cancleIcon {
+    padding-left: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 12%;
+    left: 92%;
+}
+
+.textArea {
+    border: none;
+    width: 100%;
+    margin: 5px 0px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+}
+
+.textArea:focus {
+    outline: none;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.postbutton {
+    width: 100%;
+    background-color: #198754;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
